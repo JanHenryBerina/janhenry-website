@@ -1,0 +1,177 @@
+/*sign in prompt*/
+.signin-prompt-container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px rgb(197, 197, 245);
+    border-radius: 7px;
+}
+.signin-contents {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.prompt-reminder {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 400;
+    border-bottom: 2px solid rgba(5, 18, 46, 1);
+    height: 50px;
+}
+.prompt-explanation {
+    display: flex;
+    justify-content: center;
+}
+.prompt-response {
+    display: flex;
+    justify-content: end;
+}
+.prompt-response p {
+    background-color: rgba(5, 18, 46, 1);
+    padding: 5.5px 16px;
+    color: #fdfdfd;
+    border-radius: 4px;
+}
+.create-form-container {
+    display: flex;
+    flex-direction: column;
+}
+.form-seperator {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;                        
+}
+.create-description {
+    line-height: 1.6;
+    width: 320px;
+    color: rgba(5, 18, 46, 1);
+}
+.form-logo {
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+}
+.semi-header {
+    line-height: 1.6;
+}
+.second-header {
+    font-weight:400;
+}
+.third-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(39, 39, 39);
+    line-height: 1.6;
+}
+.create-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 24px;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+}
+.login-as-admin {
+    position: absolute;
+    bottom: -67px;
+    left: 50%;
+    box-shadow: 0 0 2px rgb(99, 99, 99);
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 2px 20px;
+}
+.login-as-admin {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.login-as-admin p {
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+.login-as-admin img {
+    width: 27px;
+    height: 27px;
+}
+.form-contents {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+/*peak-password*/
+.input-data-container {
+    position: relative;
+}
+.view-password {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.view-password img {
+    width: 30px;
+}
+.create-form .input-data {
+    width: 365px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2.2px #4e4e4e;
+    caret-color: #1b74e4;
+    background-color: rgb(249, 254, 255);
+    padding-left: 12px;
+    font-size: 15.2px;
+}
+.create-form .input-data:focus {
+    outline: 1px solid #1b74e4;
+}
+.create-form .input-data::placeholder {
+    font-size: 15px;
+}
+.create-form .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 379px;
+    height: 42px;
+    border: none;
+    color: #fff;
+    background-color: rgba(5, 18, 46, 1);
+    font-size: 16.5px;
+    font-weight: 600;
+}
+.forgot-password-container {
+    border-bottom: 1px solid rgb(160, 160, 160);
+    height: 39px;
+}
+.forgot-password {
+    display: flex;
+    justify-content: center;
+    font-size: 15.2px;
+    color: rgb(46, 46, 46);
+    font-weight: 400;
+}
+.create-new-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 42px;
+    border: none;
+    color: #fff;
+    background-color: rgb(47, 218, 84);
+    font-size: 16.5px;
+    font-weight: 600;
+}

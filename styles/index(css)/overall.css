@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif,arial;
+    background-image: linear-gradient(to right, rgb(192, 218, 228) 0%, rgb(150, 128, 228) 100%);
+    padding-bottom: 100px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
+}

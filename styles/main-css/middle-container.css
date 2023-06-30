@@ -1,0 +1,54 @@
+/*middle-container*/
+.middle-container {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 100px;
+    padding-left: 340px;
+} 
+.middle-text-content {
+    display: grid;
+    row-gap: 10.8px;
+    color: rgb(29, 29, 29);
+}
+.middle-container-headings {
+    display: grid;
+}
+.middle-info {
+    font-size: 19.5px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.middle-deal {
+    font-size: 47px;
+    font-weight: 700;
+}
+.middle-text-moto {
+    line-height: 1.4;
+    width: 500px;
+    font-size: 19.5px;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+.forecast-now-container {
+    display: flex;
+    column-gap: 15px;
+}
+.forecast-now-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5, 18, 46, 1);
+    color: #d8d8d8;
+    border: none;
+    border-radius: 2px;
+    padding: 10.5px 10.5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.middle-text-imageFeature img{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    box-shadow: 0 0 15px rgb(90, 90, 90);
+}
